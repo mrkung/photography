@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif TC', serif;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    background-image: url("images/roses\ by\ Annafur.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Blogs */
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 8%;
+}
+
+.blog-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    height: 200px;
+    margin: 1em;
+    /* border: 1px solid blue; */
+    transition: 0.5s;
+}
+
+.blog-item:hover {
+    /* background-image: url(images/roses\ by\ Annafur.jpg); */
+    /* background-size: cover; */
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.blog-item h2 {
+    color: black;
+}
